@@ -1,0 +1,11 @@
+Pasar a HTML y agregar en el style:
+ 
+line 13563
+.jp-Notebook {
+    padding: 60px;
+}
+
+after line 13396 ( after .jp-Cell-inputWrapper, .jp-Cell-outputWrapper {})
+.jp-CodeCell .jp-Cell-inputWrapper {
+    display: none;
+}
